@@ -11,6 +11,10 @@ for rodada in range(1, total_de_tentativas + 1):
     chute_str = input('Digite o seu número: ')
     print(f'Você digitou {chute_str}')
 
+    if int(chute_str) < 1 or int(chute_str) > 100:
+        print('Você deve digitar um número entre 1 e 100')
+        continue
+    
     acertou = int(chute_str) == numero_secreto
     maior = int(chute_str) > numero_secreto
     menor = int(chute_str) < numero_secreto
