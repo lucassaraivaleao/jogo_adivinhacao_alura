@@ -1,10 +1,10 @@
+import random
 print('*********************************')
 print('Bem vindo ao jogo de Advinhação !')
 print('*********************************')
 
-numero_secreto = 42
+numero_secreto = random.randrange(1, 101)
 total_de_tentativas = 3
-
 
 for rodada in range(1, total_de_tentativas + 1):
     print(f'Tentativa {rodada} de {total_de_tentativas}')
@@ -14,7 +14,7 @@ for rodada in range(1, total_de_tentativas + 1):
     if int(chute_str) < 1 or int(chute_str) > 100:
         print('Você deve digitar um número entre 1 e 100')
         continue
-    
+
     acertou = int(chute_str) == numero_secreto
     maior = int(chute_str) > numero_secreto
     menor = int(chute_str) < numero_secreto
