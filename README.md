@@ -1,4 +1,4 @@
 # Projetos Desenvolvidos com os cursos da Alura na parte de Python3
 1 - Jogo da Adivinhação (adivinhacao.py) - Projeto em que o usuário terá que descobrir qual número foi esclhido aleatoriamente pelo computador, será informado com base no número que for informado se ele é maior ou menor que o número que foi escolhido. O usuário terá uma pontuação inicial em 1000, onde a cada tentativa será descontado dessa pontuação. O jogo está desenvolvido em 3 níveis de dificuldade que varia pela quantidade de tentativas.
 
-
+2 - Pedra, Papel, Tesoura - Projeto em que o usuário escolherá uma das opções e enfrentará o computador nesse jogo interativo. As regras são claras ( papel vence pedra, tesoura vence papel e pedra vence tesoura). As jogadas do computador serão escolhidas atavés da biblioteca randint e os valores são verificados através da regra, onde o vencedor será apresentado na tela como também as opções escolhidas.
